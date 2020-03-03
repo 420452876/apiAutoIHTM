@@ -1,0 +1,7 @@
+{
+  "add_emp" : {"case_name":"添加员工","username":"葫芦娃救了爷爷1as6","mobile":"13719780123","http_code":200,"success":true,"code":10000,"message":"操作成功"},
+  "select_emp" : {"case_name":"查询员工","http_code":200,"success":true,"code":10000,"message":"操作成功"},
+  "update_emp" : {"case_name":"修改员工","username":"爷爷救了葫芦大娃","http_code":200,"success":true,"code":10000,"message":"操作成功"},
+  "del_emp" : {"case_name":"删除员工","http_code":200,"success":true,"code":10000,"message":"操作成功"}
+
+}

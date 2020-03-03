@@ -1,0 +1,16 @@
+2020-03-03 13:03:02,187 INFO [root] [__init__.py(<module>:7)] - 111
+2020-03-03 13:03:02,389 INFO [root] [login_params.py(test01_login:20)] - 登录成功结果：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '94ce1687-e368-4527-bf43-be3eabb97b89'}
+2020-03-03 13:03:02,503 INFO [root] [login_params.py(test01_login:20)] - 登录成功结果：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 13:03:02,613 INFO [root] [login_params.py(test01_login:20)] - 登录成功结果：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 13:03:02,733 INFO [root] [login_params.py(test01_login:20)] - 登录成功结果：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 13:03:02,837 INFO [root] [login_params.py(test01_login:20)] - 登录成功结果：{'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-03-03 13:03:02,948 INFO [root] [emp_params.py(test01_emp_login:22)] - 登录响应体为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '21097d84-7666-41d7-b901-6dc12466d56a'}
+2020-03-03 13:03:02,948 INFO [root] [emp_params.py(test01_emp_login:25)] - 令牌为：Bearer 21097d84-7666-41d7-b901-6dc12466d56a
+2020-03-03 13:03:02,949 INFO [root] [emp_params.py(test01_emp_login:28)] - 请求头为：{'Content-Type': 'application/json', 'Authorization': 'Bearer 21097d84-7666-41d7-b901-6dc12466d56a'}
+2020-03-03 13:03:03,063 INFO [root] [emp_params.py(test02_emp_add:35)] - 添加员工结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234705768141639680'}}
+2020-03-03 13:03:03,064 INFO [root] [emp_params.py(test02_emp_add:39)] - 添加的员工id为：1234705768141639680
+2020-03-03 13:03:03,193 INFO [root] [emp_params.py(test03_emp_select:48)] - 查询的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234705768141639680', 'mobile': '13719780123', 'username': '葫芦娃救了爷爷1as6', 'password': '21eca607e5f344d887717eae7bac6bfe', 'enableState': 1, 'createTime': None, 'companyId': '1', 'companyName': '传智播客', 'departmentId': '120502600533443434', 'timeOfEntry': '2020-02-27T00:00:00.000+0000', 'formOfEmployment': 1, 'workNumber': None, 'formOfManagement': None, 'workingCity': None, 'correctionTime': '2020-02-27T16:00:00.000+0000', 'inServiceStatus': None, 'departmentName': '酱油2部', 'roleIds': [], 'staffPhoto': None}}
+2020-03-03 13:03:03,314 INFO [root] [emp_params.py(test04_emp_update:57)] - 修改的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1234705768141639680'}}
+2020-03-03 13:03:03,527 INFO [root] [emp_params.py(test04_emp_update:62)] - 查询的SQL语句为：select username from bs_user where id=1234705768141639680
+2020-03-03 13:03:03,589 INFO [root] [emp_params.py(test04_emp_update:67)] - 修改后SQL结果为：('爷爷救了葫芦大娃',)
+2020-03-03 13:03:03,705 INFO [root] [emp_params.py(test05_emp_del:80)] - 删除的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
